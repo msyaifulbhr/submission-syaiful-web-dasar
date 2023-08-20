@@ -219,6 +219,12 @@ header {
     right: 10px;
   }
 
+section a .fa-brands {
+    color: #52190D;
+    font-size: 36px;
+    padding: 10px;
+}
+
 @media screen and (max-width: 1000px) {
     main {
         flex-flow: column nowrap;
@@ -247,7 +253,10 @@ header {
 @media screen and (max-width: 670px) {
     nav ul {
         justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
 
     main aside {
         align-self: stretch;
