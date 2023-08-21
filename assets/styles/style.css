@@ -132,8 +132,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 50px 90px;
-    gap: 90px;
+    margin: 50px 5px;
+    gap: 50px;
 }
 
 .item-menu {
