@@ -151,9 +151,10 @@ header {
     width: 200px;
 }
 
-.item-img h3 {
+.item-img figcaption {
     color: #52190D;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .detail-button {
@@ -168,21 +169,21 @@ header {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-  }
+}
 
-  .popup-close {
-        background-color: #52190D;
-        color: white;
-        border: none;
-        border-radius: 20px;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin-top: 20px;
-        cursor: pointer;
-  }
+.popup-close {
+    background-color: #52190D;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
 
 .popup {
     position: fixed;
@@ -217,7 +218,7 @@ header {
     position: absolute;
     top: 10px;
     right: 10px;
-  }
+}
 
 section a .fa-brands {
     color: #52190D;
